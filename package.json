@@ -1,0 +1,22 @@
+{
+  "name": "bloger",
+  "version": "1.0.0",
+  "description": "这是一个技术博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyuhuan/suyuhuan-blog-book.git"
+  },
+  "author": "ada.su",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyuhuan/suyuhuan-blog-book/issues"
+  },
+  "homepage": "https://github.com/suyuhuan/suyuhuan-blog-book#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
