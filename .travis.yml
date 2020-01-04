@@ -1,12 +1,12 @@
-			language: node_js
-sudo: required
+language: node_js
 node_js:
-  - 8.11.3
-branch: master
-cache:
-  directories:
-    - node_modules
-before_install:
-  - export TZ='Asia/Shanghai'  # 设置时区
+- 8.6.0
+addons:
+  ssh_known_hosts:
+  - 129.211.43.59
+install:
+- npm install
 script:
-  - ./deploy.sh
+- npm run build
+after_success:
+- rsync -az --delete ./dist/* <USERNAME>@<HOST>:<TARGET-PATH>
