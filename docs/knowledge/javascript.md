@@ -3,8 +3,6 @@ sidebarDepth: 4
 pageClass: custom-code-highlight
 ---
 
-<right-blok></right-blok>
-
 # javascript
 
 ## 1. 原型 / 构造函数 / 实例
@@ -434,3 +432,5 @@ Array.prototype.flat = function() {
     this.toString().split(',').map(item => +item )
 }
 ```
+
+<right-blok></right-blok>

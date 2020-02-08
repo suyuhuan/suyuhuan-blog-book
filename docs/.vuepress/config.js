@@ -2,6 +2,9 @@ module.exports = {
     title: 'SUYUHUAN | 高级前端术道',
     description: '进阶前端高级整理各种知识点',
     displayAllHeaders: true,
+    head: [
+      ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+   ],
     themeConfig: {
       nav: [
         { text: '进修.博文', link: '/article/' },

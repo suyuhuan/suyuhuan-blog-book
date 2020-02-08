@@ -3,8 +3,6 @@ sidebarDepth: 4
 pageClass: custom-code-highlight
 ---
 
-<right-blok></right-blok>
-
 # web综合基础
 
 ## HTML、HTTP、web综合问题
@@ -1722,3 +1720,5 @@ $('#box').clearQueue("queue1"); // delete queue1 with clearQueue
 - 初步开发
 - 化繁为简
 - 组件抽象
+
+<right-blok></right-blok>

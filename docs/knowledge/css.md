@@ -3,8 +3,6 @@ sidebarDepth: 4
 pageClass: custom-code-highlight
 ---
 
-<right-blok></right-blok>
-
 # CSS
 
 ## 1. 盒模型
@@ -159,3 +157,5 @@ pageClass: custom-code-highlight
 - `skew`
 - `opacity`
 - `color`
+
+<right-blok></right-blok>

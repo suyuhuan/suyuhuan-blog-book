@@ -3,8 +3,6 @@ sidebarDepth: 4
 pageClass: custom-code-highlight
 ---
 
-<right-blok></right-blok>
-
 # JavaScript
 
 ## 基础部分
@@ -3745,3 +3743,5 @@ p.a = 2 // bind `value` to `2`
 p.a // -> Get 'a' = 2
 
 ```
+
+<right-blok></right-blok>
